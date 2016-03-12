@@ -34,3 +34,8 @@ ul,li {
   text-align: center;
   padding: 10px 7px;
 }
+
+table {
+  text-align: center;
+  font-family: "Palatino Linotype";
+}
