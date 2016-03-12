@@ -1,3 +1,26 @@
 body {
-  background-color: #D3B88C
+  background-color: #D3B88C;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+}
+
+nav {
+  text-align: center;
+}
+
+div.feature {
+  background-color: rgba(244, 225, 210, 0.35);
+  margin: 30px 80px;
+  border: 1px solid black;
+}
+
+p.feature-text {
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
 }
