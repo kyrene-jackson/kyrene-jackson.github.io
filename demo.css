@@ -14,9 +14,7 @@ body {
   margin-bottom: 0px;
   height: 70px;
   font-family: "Palatino Linotype";
-  border-top: 0.5px solid black;
-  border-left: 0.5px solid black;
-  border-right: 0.5px solid black;
+  border: 0.5px solid black;
 }
 
 div h1 {
@@ -32,23 +30,13 @@ h2, h3 {
   font-family: "Palatino Linotype";
   text-align: center;
 }
-nav {
-  background-color: #D3B88C;
-  margin-top: 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 0px;
-  height: 30px;
-  border-left: 0.5px solid black;
-  border-right: 0.5px solid black;
-  border-bottom: 0.5px solid black;
-}
+
 
 .content-panel-left {
   background-color: #D3B88C;
   margin-top: 0px;
   min-width: 300px;
-  max-width: 302px;
+  max-width: 355px;
   height: 607px;
   margin-left: 100px;
   float: left;
@@ -61,11 +49,13 @@ nav {
   padding-right: 20px;
   text-align: center;
 }
+
+
 .content-panel-right {
   background-color: #D3B88C;
   margin-top: 0px;
   min-width: 300px;
-  max-width: 302px;
+  max-width: 355px;
   height: 607px;
   margin-right: 100px;
   float: right;
@@ -76,6 +66,11 @@ nav {
 ul {
   display: inline-block;
   list-style-type: square;
+}
+
+.web-example {
+  text-align: center;
+  overflow: scroll;
 }
 
 
@@ -97,10 +92,30 @@ ul {
 }
 
 .logo-center img {
-  max-width: 530px;
+  max-width: 430px;
   max-height: 512px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+nav {
+  text-align: center;
+  background-color: #C89C55;
+  border-bottom: 0.2px solid black;
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+  color: #800000
+}
+
+a:hover {
+  color: #0066ff;
+}
+
+a:visited {
+  color: green;
 }
 
 #footer-container {
