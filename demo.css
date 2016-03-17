@@ -1,18 +1,18 @@
 body {
   background-image: url(BG-texture.jpg);
   background-color: #D3B88C;
-  margin: 0px;
+  margin: 0;
   font-family: "Palatino Linotype";
   font-size: 14px;
 }
 
-#header {
+#banner {
   background-color: #D3B88C;
-  margin-top: 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 0px;
-  height: 70px;
+  margin-top: 0;
+  margin-left: 6.92%;
+  margin-right: 6.92%;
+  margin-bottom: 0;
+  height: 2%;
   font-family: "Palatino Linotype";
   border: 0.5px solid black;
 }
@@ -132,10 +132,10 @@ footer {
   text-align: center;
 }
 
--------
+/*-----Media Queries------*/
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (max-width: 1378 ) {
   .logo-center img {
-    width: 250px;
+    width: 20%;
   }
 }
