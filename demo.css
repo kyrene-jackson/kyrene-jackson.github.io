@@ -1,3 +1,6 @@
+* /*{outline: 1px solid red} /*
+
+
 /*-----Banner------*/
 
 #banner {
@@ -12,11 +15,12 @@
 }
 
 div h1 {
+  font-size: 260%;
   text-align: center;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
 
 }
 
@@ -61,14 +65,18 @@ body {
 
 .content-panel-left {
   background-color: #D3B88C;
-  margin-top: 0px;
-  min-width: 300px;
-  max-width: 355px;
-  height: 607px;
-  margin-left: 100px;
+  margin-top: 0;
+  width: 22%;
+/*  min-width: 18%;
+  max-width: 19%; */
+  height: 10%;
+  margin-left: 6.92%;
+  padding-bottom: 4.9%;
   float: left;
   border-left: 0.5px solid black;
   border-right: 0.5px solid black;
+
+
 
 }
 .description {
@@ -81,18 +89,19 @@ body {
 
 .content-panel-right {
   background-color: #D3B88C;
-  margin-top: 0px;
-  min-width: 300px;
-  max-width: 355px;
-  height: 607px;
-  margin-right: 100px;
+  margin-top: 0;
+  width: 22%;
+  height: 10%;
+  margin-right: 6.92%;
+  padding-bottom: 3.6%;
   float: right;
   border-right: 0.5px solid black;
   border-left: 0.5px solid black;
+
 }
 
 .content-panel-right img {
-  max-width: inherit;
+  max-width: 100%;
 
 }
 
@@ -103,26 +112,26 @@ ul {
 
 .web-example {
   text-align: center;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 /*-----Center Panel------*/
 
 .logo-center {
   background-color: rgba(211,184,140,0.7);
-  max-width: 650px;
-  min-width: 310px;
-  height: 607px;
-  margin-left: 100px;
-  margin-right: 100px;
+  /* max-width: 650px; */
+  /*min-width: 310px;*/
+  width: 41.88%;
+  height: 10%;
+
   overflow: hidden;
 }
 
 .logo-center img {
-  max-width: 430px;
-  max-height: 512px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 8%;
+  padding-right: 7%;
+  padding-top: 1%;
+  padding-bottom: 8.8%;
 }
 
 /*-----Footer------*/
@@ -131,10 +140,10 @@ ul {
   background-color: #C89C55;
   font-family: "Palatino Linotype";
   clear: both;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 6.92%;
+  margin-right: 6.92%;
   border: 0.5px solid black;
-  height: 20px;
+  height: 4%;
 }
 
 footer {
@@ -142,9 +151,3 @@ footer {
 }
 
 /*-----Media Queries------*/
-
-@media only screen and (max-width: 1378 ) {
-  .logo-center img {
-    width: 20%;
-  }
-}
