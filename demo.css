@@ -1,10 +1,4 @@
-body {
-  background-image: url(BG-texture.jpg);
-  background-color: #D3B88C;
-  margin: 0;
-  font-family: "Palatino Linotype";
-  font-size: 14px;
-}
+/*-----Banner------*/
 
 #banner {
   background-color: #D3B88C;
@@ -26,77 +20,7 @@ div h1 {
 
 }
 
-h2, h3 {
-  font-family: "Palatino Linotype";
-  text-align: center;
-}
-
-
-.content-panel-left {
-  background-color: #D3B88C;
-  margin-top: 0px;
-  min-width: 300px;
-  max-width: 355px;
-  height: 607px;
-  margin-left: 100px;
-  float: left;
-  border-left: 0.5px solid black;
-  border-right: 0.5px solid black;
-
-}
-.description {
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
-}
-
-
-.content-panel-right {
-  background-color: #D3B88C;
-  margin-top: 0px;
-  min-width: 300px;
-  max-width: 355px;
-  height: 607px;
-  margin-right: 100px;
-  float: right;
-  border-right: 0.5px solid black;
-  border-left: 0.5px solid black;
-}
-
-ul {
-  display: inline-block;
-  list-style-type: square;
-}
-
-.web-example {
-  text-align: center;
-  overflow: scroll;
-}
-
-
-
-
-.content-panel-right img {
-  max-width: inherit;
-
-}
-
-.logo-center {
-  background-color: rgba(211,184,140,0.7);
-  max-width: 650px;
-  min-width: 310px;
-  height: 607px;
-  margin-left: 100px;
-  margin-right: 100px;
-  overflow: hidden;
-}
-
-.logo-center img {
-  max-width: 430px;
-  max-height: 512px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
+/*-----Nav------*/
 
 nav {
   text-align: center;
@@ -117,6 +41,91 @@ a:hover {
 a:visited {
   color: green;
 }
+
+/*-----Body------*/
+
+h2, h3 {
+  font-family: "Palatino Linotype";
+  text-align: center;
+}
+
+body {
+  background-image: url(BG-texture.jpg);
+  background-color: #D3B88C;
+  margin: 0;
+  font-family: "Palatino Linotype";
+  font-size: 14px;
+}
+
+/*-----Left Panel------*/
+
+.content-panel-left {
+  background-color: #D3B88C;
+  margin-top: 0px;
+  min-width: 300px;
+  max-width: 355px;
+  height: 607px;
+  margin-left: 100px;
+  float: left;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+
+}
+.description {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+/*-----Right Panel------*/
+
+.content-panel-right {
+  background-color: #D3B88C;
+  margin-top: 0px;
+  min-width: 300px;
+  max-width: 355px;
+  height: 607px;
+  margin-right: 100px;
+  float: right;
+  border-right: 0.5px solid black;
+  border-left: 0.5px solid black;
+}
+
+.content-panel-right img {
+  max-width: inherit;
+
+}
+
+ul {
+  display: inline-block;
+  list-style-type: square;
+}
+
+.web-example {
+  text-align: center;
+  overflow: scroll;
+}
+
+/*-----Center Panel------*/
+
+.logo-center {
+  background-color: rgba(211,184,140,0.7);
+  max-width: 650px;
+  min-width: 310px;
+  height: 607px;
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow: hidden;
+}
+
+.logo-center img {
+  max-width: 430px;
+  max-height: 512px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*-----Footer------*/
 
 #footer-container {
   background-color: #C89C55;
