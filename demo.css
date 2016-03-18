@@ -18,7 +18,7 @@
 
 #banner {
   background-color: #D3B88C;
-  margin: 0 100px 0 100px;
+  margin: 0 101px 0 100px;
   height: 100px;
   border: 0.5px solid black;
 }
@@ -40,7 +40,7 @@ nav {
   border-bottom: 0.2px solid black;
   display: block;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 101px;
 }
 
 a:link {
@@ -53,7 +53,7 @@ a:hover {
 }
 
 a:visited {
-  color: green;
+  color: #800000;
 }
 
 /*-----Body------*/
@@ -110,11 +110,13 @@ body {
 ul {
   display: inline-block;
   list-style-type: square;
+  margin-left: 19px;
+  margin-right: 19px;
 }
 
 .web-example {
   text-align: center;
-  /* overflow: scroll; */
+
 }
 
 /*-----Center Panel------*/
@@ -142,10 +144,10 @@ ul {
   background-color: #C89C55;
   font-family: "Palatino Linotype";
   clear: both;
-  margin-left: 6.92%;
-  margin-right: 6.92%;
+  margin-left: 100px;
+  margin-right: 101px;
   border: 0.5px solid black;
-  height: 4%;
+  height: 19px;
 }
 
 footer {
