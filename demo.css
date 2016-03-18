@@ -3,49 +3,43 @@
 /*-----Wrapper------*/
 
 #container {
-  padding: 0.5%;
-  margin: 5px auto;
+  padding: 5px;
   width: 1200px;
+  margin: 5px auto;
 }
-
-
-
-
-
-
 
 /*-----Banner------*/
 
 #banner {
-  background-color: #D3B88C;
-  margin: 0 101px 0 100px;
   height: 100px;
+  margin: 0 101px 0 100px;
   border: 0.5px solid black;
+  background-color: #D3B88C;
 }
 
 div h1 {
+  padding: 10px;
   font-size: 30px;
   text-align: center;
-  padding: 10px;
   font-family: "Palatino Linotype";
 }
 
 /*-----Nav------*/
 
 nav {
+  display: block;
   text-align: center;
+  margin-left: 100px;
+  margin-right: 101px;
   background-color: #C89C55;
   border-left: 0.2px solid black;
   border-right: 0.2px solid black;
   border-bottom: 0.2px solid black;
-  display: block;
-  margin-left: 100px;
-  margin-right: 101px;
 }
 
 a:link {
+  color: #800000;
   text-decoration: none;
-  color: #800000
 }
 
 a:hover {
@@ -58,16 +52,16 @@ a:visited {
 
 /*-----Body------*/
 
-h2, h3 {
-  font-family: "Palatino Linotype";
+h3 {
   text-align: center;
+  font-family: "Palatino Linotype";
 }
 
 body {
-  background-image: url(BG-texture.jpg);
+  font-size: 14px;
   background-color: #D3B88C;
   font-family: "Palatino Linotype";
-  font-size: 14px;
+  background-image: url(BG-texture.jpg);
 }
 
 /*-----Left Panel------*/
@@ -76,97 +70,66 @@ body {
   width: 300px;
   float: left;
   margin-left: 100px;
+  padding-bottom: 10px;
+  background-color: #D3B88C;
   border-left: 0.5px solid black;
   border-right: 0.5px solid black;
-  background-color: #D3B88C;
-  padding-bottom: 10px;
-
-
 }
+
 .description {
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
 }
 
-/*-----Right Panel------*/
+/*-----Center Panel------*/
 
-.content-panel-right {
-  background-color: #D3B88C;
+.center-content-panel {
   width: 400px;
   float: left;
-  border-right: 0.5px solid black;
   padding-bottom: 1px;
-
-
-
+  background-color: #D3B88C;
+  border-right: 0.5px solid black;
 }
 
-.content-panel-right img {
+.center-content-panel img {
   max-width: 100%;
-
 }
 
 ul {
-  display: inline-block;
-  list-style-type: square;
   margin-left: 19px;
   margin-right: 19px;
+  display: inline-block;
+  list-style-type: square;
 }
 
 .web-example {
   text-align: center;
-
 }
 
-/*-----Center Panel------*/
+/*-----Right Panel------*/
 
-.logo-center {
+.right-panel {
+  float: left;
+  width: 295px;
+  text-align: center;
+  padding-bottom: 40px;
   background-color: #D3B88C;
   border-right: 0.5px solid black;
-  text-align: center;
-  width: 295px;
-  float: left;
-  padding-bottom: 40px;
-
-
-
-
-
-
 }
-
-
-
-/*-----Footer------*/
-
-#footer-container {
-  background-color: #C89C55;
-  font-family: "Palatino Linotype";
-  clear: both;
-  margin-left: 100px;
-  margin-right: 101px;
-  border: 0.5px solid black;
-  height: 19px;
-}
-
-footer {
-  text-align: center;
-}
-
 
 .btn {
-  border-radius: 28px;
-  font-family: "Palatino Linotype";
-  color: #000000;
-  font-size: 14px;
-  background: #D3B88C;
   width: 130px;
   height: 20px;
-  padding: 10px 20px 10px 20px;
-  border: solid black 2px;
+  color: #000000;
+  font-size: 14px;
   text-align: center;
+  background: #D3B88C;
+  border-radius: 28px;
   text-decoration: none;
+  border: solid black 2px;
+  padding: 10px 20px 10px 20px;
+  font-family: "Palatino Linotype";
 }
 
 .btn:hover {
@@ -177,6 +140,23 @@ footer {
 #hs-btn {
   width: 60%;
 }
+
+/*-----Footer------*/
+
+#footer-container {
+  clear: both;
+  height: 19px;
+  margin-left: 100px;
+  margin-right: 101px;
+  border: 0.5px solid black;
+  background-color: #C89C55;
+  font-family: "Palatino Linotype";
+}
+
+footer {
+  text-align: center;
+}
+
 /*-----Media Queries------*/
 
 @media screen and (max-width: )
