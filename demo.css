@@ -1,11 +1,11 @@
-* /*{outline: 1px solid red} /*
+* /*{outline: 1px solid red}
 
 /*-----Wrapper------*/
 
 #container {
   padding: 0.5%;
-  margin: 0 auto;
-  width: 1300px;
+  margin: 5px auto;
+  width: 1200px;
 }
 
 
@@ -18,23 +18,16 @@
 
 #banner {
   background-color: #D3B88C;
-  margin-top: 0;
-  margin-left: 6.92%;
-  margin-right: 6.92%;
-  margin-bottom: 0;
-  height: 2%;
-  font-family: "Palatino Linotype";
+  margin: 0 100px 0 100px;
+  height: 100px;
   border: 0.5px solid black;
 }
 
 div h1 {
-  font-size: 260%;
+  font-size: 30px;
   text-align: center;
-  padding-top: 1%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
-
+  padding: 10px;
+  font-family: "Palatino Linotype";
 }
 
 /*-----Nav------*/
@@ -46,8 +39,8 @@ nav {
   border-right: 0.2px solid black;
   border-bottom: 0.2px solid black;
   display: block;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 a:link {
@@ -73,7 +66,6 @@ h2, h3 {
 body {
   background-image: url(BG-texture.jpg);
   background-color: #D3B88C;
-  margin: 0;
   font-family: "Palatino Linotype";
   font-size: 14px;
 }
@@ -81,18 +73,12 @@ body {
 /*-----Left Panel------*/
 
 .content-panel-left {
-  background-color: #D3B88C;
-  margin-top: 0;
-  width: 23%;
-/*  min-width: 18%;
-  max-width: 19%; */
-  height: 10%;
-  margin-left: 6.92%;
-  padding-bottom: 4.9%;
+  width: 300px;
   float: left;
+  margin-left: 100px;
   border-left: 0.5px solid black;
   border-right: 0.5px solid black;
-
+  background-color: #D3B88C;
 
 
 }
@@ -106,14 +92,11 @@ body {
 
 .content-panel-right {
   background-color: #D3B88C;
-  margin-top: 0;
-  width: 22%;
-  height: 10%;
-  margin-right: 6.92%;
-  padding-bottom: 3.6%;
-  float: right;
+  width: 400px;
+  float: left;
   border-right: 0.5px solid black;
   border-left: 0.5px solid black;
+
 
 }
 
@@ -135,22 +118,19 @@ ul {
 /*-----Center Panel------*/
 
 .logo-center {
-  background-color: rgba(211,184,140,0.7);
-  width: 22%;
-  height: 10%;
+  background-color: #D3B88C;
+  border-right: 0.5px solid black;
+  text-align: center;
+  width: 295px;
   float: left;
-  overflow: hidden;
+  
+
+
 
 
 }
 
-/*.logo-center img {
-  padding-left: 8%;
-  padding-right: 7%;
-  padding-top: 1%;
-  padding-bottom: 8.8%;
-  width: 50%; /*
-}
+
 
 /*-----Footer------*/
 
@@ -166,6 +146,26 @@ ul {
 
 footer {
   text-align: center;
+}
+
+
+.btn {
+  border-radius: 28px;
+  font-family: "Palatino Linotype";
+  color: #000000;
+  font-size: 14px;
+  background: #D3B88C;
+  width: 130px;
+  height: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid black 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c89c55;
+  text-decoration: none;
 }
 
 /*-----Media Queries------*/
