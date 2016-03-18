@@ -79,6 +79,7 @@ body {
   border-left: 0.5px solid black;
   border-right: 0.5px solid black;
   background-color: #D3B88C;
+  padding-bottom: 10px;
 
 
 }
@@ -95,7 +96,8 @@ body {
   width: 400px;
   float: left;
   border-right: 0.5px solid black;
-  border-left: 0.5px solid black;
+  padding-bottom: 1px;
+
 
 
 }
@@ -123,7 +125,9 @@ ul {
   text-align: center;
   width: 295px;
   float: left;
-  
+  padding-bottom: 40px;
+
+
 
 
 
@@ -168,6 +172,9 @@ footer {
   text-decoration: none;
 }
 
+#hs-btn {
+  width: 60%;
+}
 /*-----Media Queries------*/
 
 @media screen and (max-width: )
