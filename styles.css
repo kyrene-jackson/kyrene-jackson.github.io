@@ -1,44 +1,210 @@
-body {
-  background-image: url(BG-texture.jpg);
+* /*{outline: 1px solid red}
+
+/*-----Wrapper------*/
+
+#container {
+  padding: 5px;
+  width: 1200px;
+  margin: 5px auto;
+}
+
+/*-----Banner------*/
+
+#banner {
+  height: 100px;
+  margin: 0 101px 0 100px;
+  border-top: 0.5px solid black;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
   background-color: #D3B88C;
 }
 
-img {
-  max-width: 40%;
-  height: auto;
+div h1 {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Palatino Linotype";
 }
 
+/*-----Nav------*/
+
 nav {
+  display: block;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 101px;
+  background-color: #C89C55;
+  border: 0.2px solid black;
+}
+
+a:link {
+  color: #800000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0066ff;
+}
+
+a:visited {
+  color: #800000;
+}
+
+/*-----Body------*/
+
+h3 {
+  text-align: center;
+  font-family: "Palatino Linotype";
+}
+
+body {
+  font-size: 14px;
+  background-color: #D3B88C;
+  font-family: "Palatino Linotype";
+  background-image: url(BG-texture.jpg);
+}
+
+/*-----Left Panel------*/
+
+.content-panel-left {
+  width: 300px;
+  float: left;
+  margin-left: 100px;
+  padding-bottom: 10px;
+  background-color: #D3B88C;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+}
+
+.description {
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
 
+/*-----Center Panel------*/
+
+.center-content-panel {
+  width: 400px;
+  float: left;
+  padding-bottom: 1px;
+  background-color: #D3B88C;
+  border-right: 0.5px solid black;
+}
+
+.center-content-panel img {
+  max-width: 100%;
+}
+
+ul {
+  margin-left: 19px;
+  margin-right: 19px;
+  display: inline-block;
+  list-style-type: square;
+}
+
+.web-example {
+  text-align: center;
+}
+
+/*-----Right Panel------*/
+
+.right-panel {
+  float: left;
+  width: 295px;
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: #D3B88C;
+  border-right: 0.5px solid black;
+}
+
+.btn {
+  width: 130px;
+  height: 20px;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  background: #D3B88C;
+  border-radius: 28px;
+  text-decoration: none;
+  border: solid black 2px;
+  padding: 10px 20px 10px 20px;
+  font-family: "Palatino Linotype";
+}
+
+.btn:hover {
+  background: #c89c55;
+  text-decoration: none;
+}
+
+#hs-btn {
+  width: 60%;
+}
+
+/*-----Footer------*/
+
+#footer-container {
+  clear: both;
+  height: 19px;
+  margin-left: 100px;
+  margin-right: 101px;
+  border: 0.5px solid black;
+  background-color: #C89C55;
+  font-family: "Palatino Linotype";
+}
+
+footer {
+  text-align: center;
+}
+
+/*-----Credit Page------*/
+
 div.feature {
-  background-color: rgba(244, 225, 210, 0.35);
+  background-color: #D3B88C;
   margin: 30px 350px;
   border: 1px solid black;
 }
 
-p.feature-text {
-  padding: 10px;
-  text-align: center;
-  font-family: "Palatino Linotype";
+.table-credit img {
+  max-width: 55%;
+  margin-left: 100px;
+
 }
 
-h1,h2,h3 {
-  text-align: center;
-  font-family: "Palatino Linotype";
-}
+/*-----Media Queries------*/
 
-ul,li {
-  display: inline;
-  font-family: "Palatino Linotype";
-  text-align: center;
-  font-size: 14px;
-  margin-left: auto;
-  margin-right: auto;
-}
+@media screen and (max-width: 980px) {
 
-table {
-  text-align: center;
-  font-family: "Palatino Linotype";
+  #container {
+    width: 94%;
+  }
+  .content-panel-left {
+    width: 41%;
+    padding: 1% 4%;
+  }
+
+  .center-content-panel {
+    width: 41%;
+    padding: 1% 4%;
+    margin: 0px 0px 5px 5px;
+    float: right;
+
+  }
+
+  .right-panel {
+    clear: both;
+    padding: 1% 4%;
+    width: auto;
+    float: none;
+  }
+  footer {
+    padding: 1% 4%;
+  }
+
+
+
+
+
+
+
 }
