@@ -133,6 +133,12 @@ ul {
   border-right: 0.5px solid black;
 }
 
+#btn-wrap {
+  padding-left: 61px;
+  padding-right: 61px;
+}
+
+
 .btn {
   width: 130px;
   height: 20px;
@@ -254,6 +260,11 @@ nav {
   padding: 1% 4%;
   margin-left: 15.9%;
   border-left: 0.5px solid black;
+}
+
+#btn-wrap {
+  padding-left: 145px;
+  padding-right: 145px;
 }
 
 #footer-container {
