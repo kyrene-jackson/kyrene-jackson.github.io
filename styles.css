@@ -264,8 +264,10 @@ nav {
 }
 
 #btn-wrap {
-  padding-left: 145px;
-  padding-right: 145px;
+  display: block;
+  width: 180px;
+  margin: auto;
+
 }
 
 #footer-container {
