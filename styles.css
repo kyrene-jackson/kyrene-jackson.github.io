@@ -90,6 +90,7 @@ hr {
 #xpac-table {
   margin: auto;
   padding-bottom: 16px;
+  text-align: center;
 }
 
 tr:nth-child(odd) {
