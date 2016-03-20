@@ -64,6 +64,7 @@ body {
   background-image: url(BG-texture.jpg);
 }
 
+
 /*-----Left Panel------*/
 
 .content-panel-left {
@@ -155,13 +156,16 @@ ul {
 
 footer {
   text-align: center;
+  font-size: 11px;
 }
 
 /*-----Credit Page------*/
 
 div.feature {
   background-color: #D3B88C;
-  margin: 30px 350px;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
   border: 1px solid black;
 }
 
@@ -170,6 +174,23 @@ div.feature {
   margin-left: 100px;
 
 }
+
+.table-credit {
+  border-top: 1px solid black;
+}
+
+#pc-footer {
+  height: 19px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  background-color: #C89C55;
+  font-family: "Palatino Linotype";
+  font-size: 10px;
+}
+
 
 /*-----Media Queries 850px------*/
 
@@ -216,29 +237,11 @@ nav {
 
 #footer-container {
   width: 70%;
-  font-size: 9px;
   padding-top: 10px;
   margin-left: 15.9%;
 }
-
+footer {
+  font-size: 8px;
 }
-
-/*-----Media Queries 350px------*/
-@media screen and (max-width: 350px) {
-
-#x-pac-table {
-  width: 50%;
-}
-
-#footer-container {
-  width: 70%;
-  font-size: 5px;
-  padding-top: 10px;
-  margin-left: 15.9%;
-}
-
-
-
-
 
 }
